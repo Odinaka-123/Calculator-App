@@ -77,3 +77,5 @@ Future versions can add decimals, percentages, backspace, history, themes, etc.
 🤝 Contributing
 
 Feel free to open issues, submit pull requests, or suggest features.
+
+**This Project is under the Apache License**
