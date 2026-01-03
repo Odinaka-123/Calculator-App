@@ -1,9 +1,5 @@
 # Flutter Calculator App
 
-![Flutter Logo](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Dart Logo](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-
 A **simple and fully functional calculator app** built with **Flutter** and **Dart**, supporting basic arithmetic operations (`+`, `-`, `*`, `/`) and real-time evaluation. This project is designed for Android devices and is ideal for Flutter beginners looking to explore UI design, state management, and deployment.
 
 ---
@@ -17,43 +13,67 @@ A **simple and fully functional calculator app** built with **Flutter** and **Da
 - Supports Flutter 3+ and Dart null safety  
 - Future-ready structure for adding more advanced features  
 
+---
+
+📦 Download APK
+
+You can install the app directly on your Android device:
+
+[⬇️ Download Flutter Calculator v1.0.0 APK](https://github.com/Odinaka-123/Calculator-App/releases/download/v1.0.0/flutter-calculator-v1.0.0.apk)
+
+⚠️ Make sure "Install from unknown sources" is enabled on your device.
+
+---
+
 ## 💻 Installation
 
 1. **Clone the repository**
 
-```bash
+```
 git clone https://github.com/Odinaka-123/Calculator-App.git
 cd Calculator-App
+```
+---
+
 Get dependencies
 
-bash
-Copy code
-flutter pub get
+``` flutter pub get ```
+
+
 Run on connected device or emulator
 
-bash
-Copy code
-flutter run
+``` flutter run ```
+
+
 Build APK for installation
 
-bash
-Copy code
-flutter build apk --release
-The APK will be located at:
-build/app/outputs/flutter-apk/app-release.apk
+``` flutter build apk --release ```
+
+
+The APK is located at:
+releases/flutter-calculator-v1.0.0.apk
 
 📝 Usage
-Tap numbers and operations to build an expression.
 
-Press = to evaluate the expression.
+Tap numbers and operations to build an expression
 
-Press C to clear the input.
+Press = to evaluate the expression
+
+Press C to clear the input
 
 Example:
-5 + 6 * 2 = 17
+
+``` 5 + 6 * 2 = 17 ```
 
 🔖 Versioning
+
 This project uses Semantic Versioning:
 
 Version	Description
 1.0.0	Initial release with basic arithmetic support
+
+Future versions can add decimals, percentages, backspace, history, themes, etc.
+
+🤝 Contributing
+
+Feel free to open issues, submit pull requests, or suggest features.
