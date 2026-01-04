@@ -85,58 +85,60 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Calculator")),
-      body: Column(
-        children: [
-          Expanded(
-            child: Container(
-              alignment: Alignment.bottomRight,
-              padding: const EdgeInsets.all(24),
-              child: Text(
-                output,
-                style: const TextStyle(
-                  fontSize: 48,
-                  fontWeight: FontWeight.bold,
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: Container(
+                alignment: Alignment.bottomRight,
+                padding: const EdgeInsets.all(24),
+                child: Text(
+                  output,
+                  style: const TextStyle(
+                    fontSize: 48,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
-          ),
-          Column(
-            children: [
-              Row(
-                children: [
-                  _buildButton("7"),
-                  _buildButton("8"),
-                  _buildButton("9"),
-                  _buildButton("/", color: Colors.orange),
-                ],
-              ),
-              Row(
-                children: [
-                  _buildButton("4"),
-                  _buildButton("5"),
-                  _buildButton("6"),
-                  _buildButton("*", color: Colors.orange),
-                ],
-              ),
-              Row(
-                children: [
-                  _buildButton("1"),
-                  _buildButton("2"),
-                  _buildButton("3"),
-                  _buildButton("-", color: Colors.orange),
-                ],
-              ),
-              Row(
-                children: [
-                  _buildButton("0"),
-                  _buildButton("C", color: Colors.red),
-                  _buildButton("=", color: Colors.green),
-                  _buildButton("+", color: Colors.orange),
-                ],
-              ),
-            ],
-          ),
-        ],
+            Column(
+              children: [
+                Row(
+                  children: [
+                    _buildButton("7"),
+                    _buildButton("8"),
+                    _buildButton("9"),
+                    _buildButton("/", color: Colors.orange),
+                  ],
+                ),
+                Row(
+                  children: [
+                    _buildButton("4"),
+                    _buildButton("5"),
+                    _buildButton("6"),
+                    _buildButton("*", color: Colors.orange),
+                  ],
+                ),
+                Row(
+                  children: [
+                    _buildButton("1"),
+                    _buildButton("2"),
+                    _buildButton("3"),
+                    _buildButton("-", color: Colors.orange),
+                  ],
+                ),
+                Row(
+                  children: [
+                    _buildButton("0"),
+                    _buildButton("C", color: Colors.red),
+                    _buildButton("=", color: Colors.green),
+                    _buildButton("+", color: Colors.orange),
+                  ],
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
