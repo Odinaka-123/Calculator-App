@@ -20,7 +20,8 @@ A **simple and fully functional calculator app** built with **Flutter** and **Da
 
 You can install the app directly on your Android device:
 
-[⬇️ Download Flutter Calculator v1.0.0 APK](https://github.com/Odinaka-123/Calculator-App/releases/download/v1.0.0/flutter-calculator-v1.0.0.apk)
+[⬇️Download Flutter Calculator v1.0.1](https://github.com/Odinaka-123/Calculator-App/releases/download/v1.0.1/flutter-calculator-v1.0.1.apk)
+
 
 ⚠️ Make sure "Install from unknown sources" is enabled on your device.
 
