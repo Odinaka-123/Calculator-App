@@ -1,4 +1,5 @@
-# Flutter Calculator App
+# Flutter Calculator App - version: 1.0.1+2
+
 
 A **simple and fully functional calculator app** built with **Flutter** and **Dart**, supporting basic arithmetic operations (`+`, `-`, `*`, `/`) and real-time evaluation. This project is designed for Android devices and is ideal for Flutter beginners looking to explore UI design, state management, and deployment.
 
