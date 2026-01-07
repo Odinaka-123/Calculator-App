@@ -8,7 +8,7 @@ A **simple and fully functional calculator app** built with **Flutter** and **Da
 ## 🛠 Features
 
 - Clean and responsive UI  
-- Basic arithmetic: `+`, `-`, `*`, `/`  
+- Basic + Advanced Arithmetic
 - Real-time calculation using `math_expressions` package  
 - Installable APK for Android devices  
 - Supports Flutter 3+ and Dart null safety  
