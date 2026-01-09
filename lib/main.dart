@@ -118,7 +118,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
 
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: color ?? cs.surfaceVariant,
+        backgroundColor: color ?? cs.surfaceContainerHighest,
         foregroundColor: cs.onSurface,
         padding: EdgeInsets.zero,
         elevation: 0,
